@@ -27,7 +27,7 @@ p {
 }
 
 /* 按钮样式 */
-.cal-button {
+.cal_button {
   padding: 10px 15px;
   background-color: #4CAF50; /* 绿色背景 */
   color: white; /* 白色文字 */
@@ -39,6 +39,6 @@ p {
 }
 
 /* 鼠标悬停效果 */
-.cal-button:hover {
+.cal_button:hover {
   background-color: #45a049; /* 深绿色 */
 }
