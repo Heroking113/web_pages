@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
-    <link rel="stylesheet" href="static/css/common.css"> <!-- 引入 CSS 文件 -->
-    <script src="static/js/common.js" defer></script> <!-- 引入 JS 文件 -->
+    <!-- 引入 CSS 文件 -->
+    <link rel="stylesheet" href="static/css/common.css">
+    <!-- 引入 JS 文件， defer 表示异步加载并在文档解析后执行 -->
+    <script src="static/js/common.js" defer></script> 
 </head>
 <body>
     <h1>欢迎来到此站点</h1>
     <p>感谢您的访问，希望您能在这里找到所需的信息。</p>
-    <a id="githubLink" class="button" target="_blank">查看 GitHub 地址</a> <!-- 移除 href -->
-
+    <a id="githubLink" class="button" target="_blank">查看 GitHub 地址</a>
     <div>
         <p>计数器: <span id="counter">0</span></p>
         <button id="incrementButton">增加计数</button>
